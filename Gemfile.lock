@@ -180,6 +180,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   devise-bootstrap-views
+  i18n
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.20.0)

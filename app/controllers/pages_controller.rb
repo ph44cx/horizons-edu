@@ -4,9 +4,5 @@ def index
     
 end
 
-def indexar
-    
-end
-
 
 end
