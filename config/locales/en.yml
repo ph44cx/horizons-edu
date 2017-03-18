@@ -1,5 +1,12 @@
 en:
-  hello: "Hello world"
-  blog: "Blog "
-  logo: "HORIZONS"
-  
+  companyname: "HORIZONS"
+  homename: "Home"
+  aboutname: "About"
+  blogname: "Blog "
+  blognametitle: "Blog name 1"
+  membername: "Members "
+  logingname: "Log In"
+  createusergname: "Create Account"
+  dashboardgname: "My Dashboard"
+  logoutgname: "Log Out"
+
