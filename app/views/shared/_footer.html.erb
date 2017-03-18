@@ -35,6 +35,11 @@
         <p><i class="fa fa-map-pin"></i> 221,349 HanPlus Tower 150, Dogan Arasli Bolv, Esenyurt - Istanbul</p>
         <p><i class="fa fa-phone"></i> Phone (Turkey) : +90 212 620 7000</p>
         <p><i class="fa fa-envelope"></i> E-mail : info@horizons-edu.com</p>
+                    <% if I18n.locale == I18n.default_locale %>
+              <li><a><%= link_to "العربية", { :locale=>'ar'} %></a></li>
+            <% else %>
+              <li><a><%= link_to "English", { :locale=>'en' } %></a></li>
+            <% end %>
         
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
