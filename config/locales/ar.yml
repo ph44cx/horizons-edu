@@ -1,5 +1,5 @@
 ar:
-  companyname: "أفاق "
+  companyname: "آفاق الدولية للخدمات الطلابية "
   homename: "الرئيسية"
   aboutname: "حول أفاق"
   blogname: "مدونة "
@@ -9,3 +9,5 @@ ar:
   createusergname: "إنشاء حساب جديد"
   dashboardgname: "لوحة التحكم"
   logoutgname: "تسجيل الخروج"
+  searchbutton: "بحث"
+  searchplaceholder: "أي عنوان تريد"

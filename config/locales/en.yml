@@ -9,4 +9,6 @@ en:
   createusergname: "Create Account"
   dashboardgname: "My Dashboard"
   logoutgname: "Log Out"
+  searchbutton: "Submit"
+  searchplaceholder: "Search"
 
