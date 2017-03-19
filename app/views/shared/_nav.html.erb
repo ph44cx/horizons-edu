@@ -34,6 +34,13 @@
           <input type="text" class="form-control" placeholder="<%= t('searchplaceholder') %>">
         </div>
         <button type="submit" class="btn btn-default"><%= t('searchbutton') %></button>
+        <button type="submit" class="btn btn-default">
+            <% if I18n.locale == I18n.default_locale %>
+              <a><%= link_to "العربية", { :locale=>'ar'} %></a>
+            <% else %>
+              <a><%= link_to "English", { :locale=>'en' } %></a>
+            <% end %>
+        </button>
       </form>
       <ul class="nav navbar-nav navbar-left">
         <li class="dropdown">
@@ -82,10 +89,15 @@
         </li>
         <li><a href="#"><%= t('aboutname') %></a></li>
         <li class="active" style="margin-right: 10px;"><a href="#"><%= t('homename') %><span class="sr-only">(current)</span></a></li>
-
       </ul>
       <form class="navbar-form navbar-left">
-        <div class="form-group">
+        <button type="submit" class="btn btn-default">
+            <% if I18n.locale == I18n.default_locale %>
+              <%= link_to "العربية", { :locale=>'ar'} %>
+            <% else %>
+              <%= link_to "English", { :locale=>'en' } %>
+            <% end %>
+        </button>        <div class="form-group">
           <input type="text" class="form-control" placeholder="<%= t('searchplaceholder') %>">
         </div>
         <button type="submit" class="btn btn-default"><%= t('searchbutton') %></button>
