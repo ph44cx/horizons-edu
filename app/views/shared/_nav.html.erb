@@ -50,7 +50,7 @@
             <li><a href="#"><%= t('createusergname') %></a></li>
             <li><a href="#"><%= t('dashboardgname') %></a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#"><%= t('logoutgname') %></a></li>
+            <li><a rel="nofollow" href="/users/sign_out" data-method="delete"><%= t('logoutgname') %></a></li>
           </ul>
         </li>
       </ul>
@@ -106,11 +106,11 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t('membername') %><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><%= t('logingname') %></a></li>
-            <li><a href="#"><%= t('createusergname') %></a></li>
-            <li><a href="#"><%= t('dashboardgname') %></a></li>
+            <li align="right"><a href="#"><%= t('logingname') %></a></li>
+            <li align="right"><a href="#"><%= t('createusergname') %></a></li>
+            <li align="right"><a href="#"><%= t('dashboardgname') %></a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#"><%= t('logoutgname') %></a></li>
+            <li align="right"><a rel="nofollow" href="/users/sign_out?locale=ar" data-method="delete"><%= t('logoutgname') %></a></li>
           </ul>
         </li>
       </ul>
