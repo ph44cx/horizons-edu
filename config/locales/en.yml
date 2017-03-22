@@ -1,5 +1,24 @@
 en:
-  companyname: "HORIZONS"
+  company:
+    name: "HORIZONS"
+    intro: "The first company in turkey that dedecated a whole team just to represent students in all turkish universities"
+    address: " 221,349 HanPlus Tower 150, Dogan Arasli Bolv, Esenyurt - Istanbul"
+    telephone1: "Phone (Turkey) : +90 212 620 7000"
+    telephone2: ""
+    mobile1: ""
+    mobile2: ""
+    email: "E-mail : info@horizons-edu.com"
+    
+  mainmenu:
+  
+  footermenu:
+    header: "General Links"
+    career: "Career"
+    policy: "Privacy Policy"
+    terms: "Terms & Conditions"
+    faqs: "Frequently Ask"
+    stories: "Success Stories"
+
   tronname: "Our Mission"
   homename: "Home"
   aboutname: "About"

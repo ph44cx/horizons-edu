@@ -2,22 +2,21 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 footerleft ">
-        <div class="logofooter"> HORIZONS</div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-        <p><i class="fa fa-map-pin"></i> 221,349 HanPlus Tower 150, Dogan Arasli Bolv, Esenyurt - Istanbul</p>
-        <p><i class="fa fa-phone"></i> Phone (Turkey) : +90 212 620 7000</p>
-        <p><i class="fa fa-envelope"></i> E-mail : info@horizons-edu.com</p>
+        <div class="logofooter"><%= t('company.name') %></div>
+        <p><%= t('company.intro') %></p>
+        <p><i class="fa fa-map-pin"></i><%= t('company.address') %></p>
+        <p><i class="fa fa-phone"></i><%= t('company.telephone1') %></p>
+        <p><i class="fa fa-envelope"></i><%= t('company.email') %></p>
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
-        <h6 class="heading7">General Links</h6>
+        <h6 class="heading7"><%= t('footermenu.header') %></h6>
         <ul class="footer-ul">
-          <li><a href="#"> Career</a></li>
-          <li><a href="#"> Privacy Policy</a></li>
-          <li><a href="#"> Terms & Conditions</a></li>
-          <li><a href="#"> Client Gateway</a></li>
-          <li><a href="#"> Ranking</a></li>
-          <li><a href="#"> Case Studies</a></li>
-          <li><a href="#"> Frequently Ask Questions</a></li>
+          <li><a href="#"><%= t('footermenu.header') %></a></li>
+          <li><a href="#"><%= t('footermenu.career') %></a></li>
+          <li><a href="#"><%= t('footermenu.policy') %></a></li>
+          <li><a href="#"><%= t('footermenu.terms') %></a></li>
+          <li><a href="#"><%= t('footermenu.faqs') %></a></li>
+          <li><a href="#"><%= t('footermenu.stories') %></a></li>
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
