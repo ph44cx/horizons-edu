@@ -18,7 +18,7 @@
         <li class="dropdown">
           <a href="blogs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t('blogname') %><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/blogs"><%= t('blognametitle') %></a></li>
+            <li><a href="/en/blogs"><%= t('blognametitle') %></a></li>
             <li><a href="#"><%= t('blognametitle') %></a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#"><%= t('blognametitle') %></a></li>
@@ -42,11 +42,13 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t('membername') %><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><%= t('logingname') %></a></li>
-            <li><a href="#"><%= t('createusergname') %></a></li>
-            <li><a href="#"><%= t('dashboardgname') %></a></li>
-            <li role="separator" class="divider"></li>
-            <li><a rel="nofollow" href="/users/sign_out" data-method="delete"><%= t('logoutgname') %></a></li>
+            <li><a><%= link_to t("mainmenu.login"), new_user_session_path %></a></li>
+            <li><a><%= link_to t("mainmenu.creataccount"), new_user_registration_path %></a></li>
+            <% if user_signed_in? %>
+              <li><a><%= t('dashboardgname') %></a></li>
+              <li role="separator" class="divider"></li>
+              <li><a rel="nofollow" href="/users/sign_out" data-method="delete"><%= t('logoutgname') %></a></li>
+            <% end %>
           </ul>
         </li>
       </ul>

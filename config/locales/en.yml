@@ -10,6 +10,9 @@ en:
     email: "E-mail : info@horizons-edu.com"
     
   mainmenu:
+    login: "Log In"
+    creataccount: "Create account"
+    dashboard: "User Dashboard"
   
   footermenu:
     header: "General Links"
@@ -19,11 +22,15 @@ en:
     faqs: "Frequently Ask"
     stories: "Success Stories"
 
+
+  blog:
+    blogname: "Horizon Blog"
+    newblogtitle: "New Blog Article"
+
+
   tronname: "Our Mission"
   homename: "Home"
   aboutname: "About"
-  blogname: "Blog "
-  blognametitle: "Blog name 1"
   membername: "Members "
   logingname: "Log In"
   createusergname: "Create Account"

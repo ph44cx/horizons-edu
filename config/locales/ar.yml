@@ -11,6 +11,10 @@ ar:
   
   
   mainmenu:
+    login: "تسجيل دخول"
+    creataccount: "إنشاء حساب"
+    dashboard: "لوحة التحكم"
+  
   
   footermenu:
     header: "روابط عامة"
@@ -19,12 +23,16 @@ ar:
     terms: "الشروط والأحكام"
     faqs: "أسئلة متكررة"
     stories: "قصص نجاح"
-  
+    
+    
+  blog:
+    blogname: "مدونة أفاق"
+    newblogtitle: "إنشاء مقالة"
+    
+    
   tronname: "مهمتنا الرئيسية"
   homename: "الرئيسية"
   aboutname: "حول أفاق"
-  blogname: "مدونة "
-  blognametitle: "عنوان مدونة 1"
   membername: "الأعضاء "
   logingname: "تسجيل دخول"
   createusergname: "إنشاء حساب جديد"
@@ -32,4 +40,3 @@ ar:
   logoutgname: "تسجيل الخروج"
   searchbutton: "بحث"
   searchplaceholder: "أي عنوان تريد"
-  newblogbutton: "إنشاء مقالة"
